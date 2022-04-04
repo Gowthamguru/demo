@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T09:52:47.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="iKdKeN0IKeITaljw7mOU" version="17.4.0" type="github"><diagram id="fXDoH9pT6YtjMSMY6B6A" name="Page-1">jZJNT4QwEIZ/TY8mhepmvcqu68WD4UDixTR0pE1aiqUI7K+3yHSBEBMvzcwz0/l4W8IyM1wcb+SrFaBJSsVA2Imk6fFwDOcExhncP9AZVE6JGSULyNUVEMa0TgloN4neWu1Vs4WlrWso/YZx52y/Tfu0etu14RXsQF5yvaeFEl7iWnGLib+AqmTsnFCMGB6TEbSSC9uvEDsTljlr/WyZIQM9aRd1me89/xG9Deag9v+58HHyb/Td0mvxaFhRt+OXdndY5ZvrDhfGYf0YFXC2qwVMRShhT71UHvKGl1O0D08emPRGBy8J5n6o2AGch2GFcMgLWAPejSElfhnUa9y6/aJ+EiWVK+UPyDg+eHUrvGgSDJQluov8v7HVH2bnHw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-04T10:14:22.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="BrdtNWJ39SErwS0enwpi" version="17.4.0" type="github">
+  <diagram id="fXDoH9pT6YtjMSMY6B6A" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="argQMI_oksbnRu6_9vSH-1" value="&lt;u&gt;Manual Order Checking Flow&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-2" target="argQMI_oksbnRu6_9vSH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="75" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-3" target="argQMI_oksbnRu6_9vSH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-3" value="DMS PO Information" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-5" target="argQMI_oksbnRu6_9vSH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-5" value="Data Transfer to Staging Table to ERP Format" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontFamily=Times New Roman;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-9" target="argQMI_oksbnRu6_9vSH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-9" value="Staging DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-11" target="argQMI_oksbnRu6_9vSH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-11" value="Data process to ERP System" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="715" y="200" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-15" target="argQMI_oksbnRu6_9vSH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-15" value="Data moved / Captured in ERP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="225" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-17" target="argQMI_oksbnRu6_9vSH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-17" value="Data update to &lt;br&gt;DMS&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="285" y="190" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-20" target="argQMI_oksbnRu6_9vSH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-20" value="Manual Orders" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-22" target="argQMI_oksbnRu6_9vSH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-22" value="Check the DMS PO Numbers" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="386" y="295" width="134" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-24" target="argQMI_oksbnRu6_9vSH-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-24" value="Collect Manual Order information" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.2857142857142857;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-28" target="argQMI_oksbnRu6_9vSH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-28" value="Update Manual Order to Respective person mail ID" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontFamily=Times New Roman;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="75" y="310" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-29" target="argQMI_oksbnRu6_9vSH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-29" value="Update DMS PO number by IT Team" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-32" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="305" y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-35" target="argQMI_oksbnRu6_9vSH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-35" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="745" y="470" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-39" target="argQMI_oksbnRu6_9vSH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1" source="argQMI_oksbnRu6_9vSH-39" target="argQMI_oksbnRu6_9vSH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-39" value="Manual / Auto" style="shape=xor;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="argQMI_oksbnRu6_9vSH-43" value="Process" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
